@@ -1,0 +1,398 @@
+/* font-family: 'Italianno', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Shadows Into Light', cursive;; */
+
+body{
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans' sans-serif; 
+    font-size: 20px;
+    line-height: 16px;
+
+}
+
+header{
+    background: url(../img/Escudos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+
+nav{
+    background-color: turquoise;
+    margin-bottom: 2em;
+
+}
+
+footer{
+    background-color: rgb(230, 119, 189);
+}
+
+header h1{
+    Color: white;
+    font-family: 'Italianno', cursive;
+    font-size: 3em;
+    font-weight: 100;
+    display: flexbox;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+
+    
+    
+}
+
+nav ul li a{
+    color:rgb(241, 74, 177);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.02em 0.04em;
+}
+
+nav ul li a:hover{
+    background-color: blueviolet;
+}
+
+footer{
+    background-color: whitesmoke;
+    clear: both;
+    color: black;
+    padding: 1em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo{
+    background-color: rgb(165, 122, 233);
+}
+
+.holder{
+    max-width: 980px;
+    margin: 0 auto;
+    
+}
+    
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 300;
+    margin: 0 0 1em;;
+    color: hotpink;
+
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.homeimg{
+    margin-bottom: 1.5em;
+
+}
+
+.bienvenidos .redessociales{
+    box-sizing: border-box ;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+
+}
+
+.redessociales{
+    width: 25%;
+
+}
+
+.historiaimg{
+    margin-bottom: 1.5em;
+}
+
+.discos{
+    width: 20%;
+    border: 1px solid rgb(193, 108, 250);
+    border-radius: 0.25em;
+    float: left;
+    margin: 2.20%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.discos img{
+    border-radius: 25%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5) ;
+    margin: 0.8em 0.1em;
+    max-width: 70%;
+}
+
+.discos h5{
+    text-align: center;
+    font-weight: normal;
+    color: slateblue;
+    margin: 0;
+}
+.discos h6 {
+    text-align: center;
+    font-weight: normal;
+    color: slateblue;
+    margin: 0;
+}
+
+.discografia h2 {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 3em;
+}
+
+.historia h2{
+    margin-left: 01.5em;
+    font-size: 2em;
+}
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: violet
+}
+.card-title {
+    font-family: 'Italianno', cursive;
+    font-size: 250%;
+    text-align: center;
+    color: rgb(106, 204, 250)
+}
+.titulo {
+    font-family: 'Italianno', cursive;
+    font-size: 250%;
+    text-align: center;
+    color: rgb(250, 106, 207)
+    }
+    
+.noticias{
+        width: 30%;
+        max-width: 700px;
+        height: 200px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        margin-left: 55px;
+        margin-bottom: 500px;
+    }
+.noticias img{
+        width: 600px;
+        height: 400px;
+    }
+
+.noticias h1{
+    font-family: 'Italianno', cursive;
+    font-size: 250%;
+    text-align: left;
+    color: rgb(156, 106, 250)
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid rgb(183, 0, 255);
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgb(74, 0, 248);
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  .button {
+    margin-left: 100px;
+}
+  
+  button {
+      margin-top: 25px;
+      margin-left: 4em;
+  }
+
+  
+.tittle{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 25;
+    font-family: 'Shadows Into Light', cursive;
+    color: hotpink;
+}
+.container{
+    width: 43%;
+    max-width: 800px;
+    height: 500px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.container .card{
+    width: 600px;
+    height: 500px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: darkmagenta;
+    
+}
+
+.container .card:hover{
+    transform: translateY(25%) translateX(25%);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card .h4{
+    font-weight: 50;
+    
+}
+.container .card .p{
+    padding: 0,1rem;
+    font-size: 30px;
+    font-weight: 10;
+    color: cornflowerblue;
+    
+}
+
+
+
+
+
+
+
+
+.gallery{
+    width: 80%;
+    margin: 90px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+}
+
+.gallery .img-card {overflow: hidden;}
+
+.gallery .img-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0,5s;
+    cursor: pointer;
+}
+.gallery .img-card:hover{
+    transform: scale(1.5) rotate(20deg);
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal .list{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 100px);
+}
+.modal .list img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.modal #mymodalimg{
+    width: 50%;
+    display: block;
+    margin: auto;
+    max-width: 700px;
+}
+.modal .caption-text{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 36px;
+    color: gray;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@keyframes zoom{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}

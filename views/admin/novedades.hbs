@@ -1,0 +1,40 @@
+<div class="holder">
+    <div class="row">
+        <p class="text-end">Hola <i class="fas fa-user-secret"> {{usuario}}</i>! <a class="btn btn-danger" href="/admin/login/logout"> Cerrar sesion <i class="fas fa-person-booth"></i>
+        </a></p>
+    </div>
+</div>
+<div>
+    <div class="row">
+        <div class="col-7">
+            <h2> <i class="fas fa-id-badge"> Listado de novedades </i></h2>
+        </div>
+        <div class="col-5 text-end">
+            <a class="btn btn-sucess" href="/admin/novedades/agregar"><i class="fa fa-plus" aria-hidden="true"></i>
+                Nuevo </a>
+        </div>
+    </div>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Titulo</th>
+      <th scope="col">Imagen</th>
+      <th scope="col" class="text-end">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each novedades}}
+    <tr>
+      <th scope="row">{{id}}</th>
+      <td>{{titulo}}</td>
+      <td>{{{imagen}}}</td>
+      <td class="text-end">
+          <a class="btn btn-secondary" href="/admin/novedades/modificar/{{id}}"><i class="fas fa-pencil-alt"></i></a>
+          <a class="btn btn-secondary" href="/admin/novedades/eliminar/{{id}}"><i class="fas fa-trash"></i></a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+</div>

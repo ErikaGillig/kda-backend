@@ -1,0 +1,26 @@
+header {
+    background-color: rgb(119, 0, 255);
+    text-align: center;
+}
+
+header  h1{
+    position: static;
+}
+
+h2 {
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+.holder{
+    margin-top: 20px;
+}
+
+body {
+    background-color: rgb(75, 75, 75);
+}
+
+.container{
+    
+    width: 110%;
+    height: 50%;
+}
