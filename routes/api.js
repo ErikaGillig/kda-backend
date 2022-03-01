@@ -10,8 +10,8 @@ router.get('/novedades', async function (req, res, next){
     novedades = novedades.map(novedades => {
         if (novedades.img_id) {
             const imagen = cloudinary.url(novedades.img_id, {
-                width: 960,
-                height: 200,
+                width: 800,
+                height: 400,
                 crop: 'fill'
             });
             return {
@@ -36,13 +36,13 @@ router.post('/contacto', async (req, res) => {
         correo: ${req.body.email} <br> Haciendo el siguiente comentario: ${req.body.mensaje} <br>`
 
     }
-
+    
     var transport = nodemailer.createTransport({
         host: "smtp.mailtrap.io",
         port: 2525,
         auth: {
-          user: process.env.SMTP_USER,
-          pass: process.env.SMTP_PASS,
+          user: "4ef62b61f12d07",
+          pass: "fb5280f9f26331"
         }
       });
 
