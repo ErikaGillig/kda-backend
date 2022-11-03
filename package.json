@@ -1,12 +1,10 @@
 {
   "name": "backend",
-  "home": "https://erikagillig.github.io/kda-backend",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
